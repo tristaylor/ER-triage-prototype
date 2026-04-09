@@ -1,0 +1,8 @@
+# streamlit_app/requirements.txt
+# Install separately: pip install -r streamlit_app/requirements.txt
+ 
+streamlit>=1.30.0
+plotly>=5.18.0
+pandas>=2.1.0
+numpy>=1.26.0
+joblib>=1.3.0
