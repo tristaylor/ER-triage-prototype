@@ -1,0 +1,35 @@
+# ER-Triage-Prototype — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Data handling ──────────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.1.0
+pyarrow>=14.0.0          # Parquet support for MIMIC-IV files
+scipy>=1.11.0
+
+# ── Machine learning ───────────────────────────────────────────────────────────
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+imbalanced-learn>=0.11.0  # SMOTE / class imbalance handling
+
+# ── Model explainability ───────────────────────────────────────────────────────
+shap>=0.44.0
+
+# ── Evaluation & metrics ───────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+joblib>=1.3.0             # Model serialization
+tqdm>=4.66.0              # Progress bars
+pyyaml>=6.0.1             # Config file support
+click>=8.1.7              # CLI argument parsing
+python-dotenv>=1.0.0      # Environment variable management
+
+# ── Notebook support ───────────────────────────────────────────────────────────
+jupyterlab>=4.0.0
+ipywidgets>=8.1.0
+
+# ── Testing ────────────────────────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
